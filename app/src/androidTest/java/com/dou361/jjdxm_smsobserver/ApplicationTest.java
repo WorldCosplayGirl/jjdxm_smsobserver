@@ -1,4 +1,4 @@
-package com.dou361.jjdxmsmsobserver;
+package com.dou361.jjdxm_smsobserver;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

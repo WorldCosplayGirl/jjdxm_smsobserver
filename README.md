@@ -1,5 +1,5 @@
 
-# [jjdxmsmsobserver][project] #
+# [jjdxm_smsobserver][project] #
 ## Introduction ##
 [apk下载][downapk]
 
@@ -83,8 +83,8 @@ If you find any bug when using project, please report [here][issues]. Thanks for
 
 [web]:http://www.dou361.com
 [github]:https://github.com/jjdxmashl/
-[project]:https://github.com/jjdxmashl/jjdxmsmsobserver/
-[issues]:https://github.com/jjdxmashl/jjdxmsmsobserver/issues/new
-[downapk]:https://raw.githubusercontent.com/jjdxmashl/jjdxmsmsobserver/master/apk/app-debug.apk
-[icon01]:https://raw.githubusercontent.com/jjdxmashl/jjdxmsmsobserver/master/screenshots/icon01.png
-[icon02]:https://raw.githubusercontent.com/jjdxmashl/jjdxmsmsobserver/master/screenshots/icon02.png
+[project]:https://github.com/jjdxmashl/jjdxm_smsobserver/
+[issues]:https://github.com/jjdxmashl/jjdxm_smsobserver/issues/new
+[downapk]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_smsobserver/master/apk/app-debug.apk
+[icon01]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_smsobserver/master/screenshots/icon01.png
+[icon02]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_smsobserver/master/screenshots/icon02.png
