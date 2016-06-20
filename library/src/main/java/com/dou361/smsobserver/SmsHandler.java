@@ -57,7 +57,7 @@ public class SmsHandler extends Handler {
             String[] smsInfos = (String[]) msg.obj;
             if (smsInfos != null && smsInfos.length == 2 && mCallback != null) {
                 if (smsFilter == null) {
-                    smsFilter = new DefaultSmsFilter();
+                    smsFilter = new ContentSmsFilter();
                 }
                 mCallback.onCallbackSmsContent(smsFilter.filter(smsInfos[0], smsInfos[1]));
             }

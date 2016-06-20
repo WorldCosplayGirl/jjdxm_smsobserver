@@ -20,7 +20,7 @@ package com.dou361.smsobserver;
  * <p/>
  * ========================================
  */
-public class DefaultSmsFilter implements SmsFilter {
+public class ContentSmsFilter implements SmsFilter {
 
     @Override
     public String filter(String address, String smsContent) {
