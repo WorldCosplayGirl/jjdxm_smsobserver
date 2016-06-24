@@ -38,6 +38,11 @@ install {
     }
 }
 
+task jar(type: Jar) {
+    from android.sourceSets.main.java
+    classifier = jjdxm_libraryVersion
+}
+
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'
