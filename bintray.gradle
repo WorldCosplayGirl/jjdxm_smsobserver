@@ -64,6 +64,7 @@ task sourcesJar(type: Jar) {
 //}
 
 artifacts {
+    archives jar
 //    archives javadocJar
     archives sourcesJar
 }
