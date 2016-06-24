@@ -43,6 +43,12 @@ task jar(type: Jar) {
     classifier = jjdxm_libraryVersion
 }
 
+task releaseJar(type: Copy) {
+    from( 'build/intermediates/bundles/release')
+    include('classes.jar')
+    classifier = jjdxm_libraryVersion
+}
+
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'
@@ -69,7 +75,7 @@ javadoc {
 }
 
 artifacts {
-    archives jar
+    archives releaseJar
     archives javadocJar
     archives sourcesJar
 }
