@@ -39,14 +39,14 @@ install {
 }
 
 task jar(type: Jar) {
-    from android.sourceSets.main.java
-    classifier = jjdxm_libraryVersion
+    from( 'build/intermediates/bundles/release')
+    classifier = '1.0.0'
 }
 
 task releaseJar(type: Copy) {
     from( 'build/intermediates/bundles/release')
     include('classes.jar')
-    classifier = jjdxm_libraryVersion
+    classifier = '1.0.0'
 }
 
 task sourcesJar(type: Jar) {
@@ -75,7 +75,7 @@ javadoc {
 }
 
 artifacts {
-    archives releaseJar
+    archives jar
     archives javadocJar
     archives sourcesJar
 }
