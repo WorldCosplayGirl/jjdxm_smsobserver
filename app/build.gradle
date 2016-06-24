@@ -52,5 +52,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile rootProject.ext.jjdxm_v7
     compile 'com.karumi:dexter:2.2.2'
-    compile project(':library')
+    compile project(':jjdxm-smsobserver')
 }
