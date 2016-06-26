@@ -11,6 +11,27 @@
 ### 过滤接收到的短信，得到自己想要的内容 ###
 
 ## Screenshots ##
+ 
+## Download ##
+
+[demo apk下载][downapk]
+
+[下载最新版本jar][lastjar]
+
+Download or grab via Maven:
+
+	<dependency>
+	  <groupId>com.dou361.smsobserver</groupId>
+	  <artifactId>jjdxm-smsobserver</artifactId>
+	  <version>x.x.x</version>
+	</dependency>
+
+or Gradle:
+
+	compile 'com.dou361.smsobserver:jjdxm-smsobserver:x.x.x'
+
+
+jjdxm-smsobserver requires at minimum Java 15 or Android 4.0.
 
 ## Get Started ##
 
@@ -86,5 +107,7 @@ If you find any bug when using project, please report [here][issues]. Thanks for
 [project]:https://github.com/jjdxmashl/jjdxm_smsobserver/
 [issues]:https://github.com/jjdxmashl/jjdxm_smsobserver/issues/new
 [downapk]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_smsobserver/master/apk/app-debug.apk
+[lastaar]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_smsobserver/master/release/jjdxm-smsobserver-1.0.0.aar
+[lastjar]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_smsobserver/master/release/jjdxm-smsobserver-1.0.0.jar
 [icon01]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_smsobserver/master/screenshots/icon01.png
 [icon02]:https://raw.githubusercontent.com/jjdxmashl/jjdxm_smsobserver/master/screenshots/icon02.png
