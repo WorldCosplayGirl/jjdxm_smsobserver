@@ -66,8 +66,6 @@ public class SmsObserver extends ContentObserver {
 
     /***
      * 注册短信变化观察者
-     *
-     * @see [类、类#方法、类#成员]
      */
     public void registerSMSObserver() {
         Uri uri = Uri.parse("content://sms");
@@ -79,8 +77,6 @@ public class SmsObserver extends ContentObserver {
 
     /***
      * 注销短信变化观察者
-     *
-     * @see [类、类#方法、类#成员]
      */
     public void unregisterSMSObserver() {
         if (mContext != null) {
